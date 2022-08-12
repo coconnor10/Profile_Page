@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <h1 class="profile-logo">Profile</h1>
+        <a class="navlink" href="">Home</a>
+        <a class="navlink" href="">My Profile</a>
+        <a class="navlink" href="">Find Connections</a>
+        <button class="navbutton">Sign Out</button>
+    </nav>
+
+    <!--  main body-->
+    <main>
+        <!-- name/avatar section -->
+        <div>
+            <h1 class="card-header">
+                <img src="./images/jane-m.jpg" alt="profile image" class="profile-img">
+            </h1>
+            <h1 class="name">Jane Doe</h1>
+            <p>
+                <img src="./images/icons/map-marker.png" alt="map marker icon" class="map-marker">
+                Seattle
+            </p>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Master of shadows and the Internet!</p>
+            <p>
+                <img src="./images/icons/gear.png" alt="edit profile gear icon" class="gear-icon">
+                <a class="edit-profile" href="">edit profile</a>
+            </p>
+        </div>
+
+        <!-- education -->
+        <div>
+            <section class="edu-header">
+                <h1 class="title">Education</h1>
+            </section>
+            <section class="edu-content">
+                <h1>Coding Dojo - Full Stack Bootcamp</h1>
+                <h2>Dec 2019 - Mar 2020</h2>
+                <h3>Triple black belt in Python, Mern, and C#</h3>
+            </section>
+        </div>
+
+    </main>
+
+    <!-- side bar -->
+    <aside>
+        <!-- connection requests -->
+        <div>
+            <section class="aside-header">
+                <h1 class="title"><span class="requests">2</span>Connection Requests</h1>
+            </section>
+
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/todd-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Todd E
+                    <img src="./images/icons/accept-circle.png" class="request-icon" alt="accept check mark icon">
+                    <img src="./images/icons/close-circle.png" class="request-icon" alt="decline icon">
+                </span>
+            </section>
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/phil-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Phil K
+                    <img src="./images/icons/accept-circle.png" class="request-icon" alt="accept check mark icon">
+                    <img src="./images/icons/close-circle.png" class="request-icon" alt="decline icon">
+                </span>
+            </section>
+
+        </div>
+
+        <!-- your connections -->
+        <div>
+            <section class="aside-header">
+                <h1 class="title"><span class="connections">500+</span>Your Connections</h1>
+            </section>
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/adrien-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Adrien D
+                </span>
+            </section>
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/anne-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Anne J
+                </span>
+            </section>
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/alayne-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Alayne T
+                </span>
+            </section>
+            <section class="connection-content">
+                <span class="connection-span">
+                    <img src="./images/arry-s.jpg" class="connection-img"
+                        alt="profile icon of the users connections">Arry Y
+                </span>
+            </section>
+            <section class="view-more"><a href="" class="view-more-link">View More</a></section>
+        </div>
+    </aside>
+
+</body>
+
+</html>

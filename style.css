@@ -1,0 +1,177 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* element selectors */
+aside {
+  float: right;
+  width: 31%;
+  margin-right: 180px;
+}
+
+div {
+  border: solid lightslategray;
+  margin-top: 30px;
+}
+
+h2 {
+  color: lightslategray;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+main {
+  margin-left: 170px;
+  display: inline-block;
+  width: 48%;
+}
+
+nav {
+  background-color: black;
+  color: white;
+  margin: -8px;
+  padding: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-left: 35px;
+  margin-top: -15px;
+}
+
+/* class selectors */
+.aside-header {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  margin: -2px;
+  padding: 15px;
+}
+
+.card-header {
+  background-color: rgb(23, 162, 184);
+  margin: -3px;
+  margin-bottom: 70px;
+}
+
+.connection-content {
+  margin-left: 35px;
+  margin-top: 15px;
+  margin-bottom: 7.5px;
+}
+
+.connection-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.connection-span {
+  display: flex;
+  align-items: center;
+}
+
+.connections {
+  background-color: lightgray;
+  color: black;
+  border: solid lightgray;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.edit-profile {
+  color: rgb(43, 120, 228);
+}
+
+.edu-content {
+  margin-left: 35px;
+}
+
+.edu-header {
+  background-color: rgb(51, 51, 51);
+  color: white;
+  margin: -2px;
+  padding: 15px;
+}
+
+.gear-icon {
+  height: 30px;
+}
+
+.map-marker {
+  height: 30px;
+}
+
+.name {
+  margin-left: 35px;
+}
+
+.navbutton {
+  float: right;
+  background-color: rgb(23, 162, 184);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  font-size: 1.5rem;
+  padding: 10px;
+  margin-right: 170px;
+}
+
+.navlink {
+  font-size: 1.5rem;
+  margin: 70px;
+  color: white;
+  text-decoration: none;
+}
+
+.profile-img {
+  border: solid lightslategray;
+  border-radius: 180px;
+  height: 125px;
+  margin-left: 35px;
+  position: relative;
+  top: 70px;
+}
+
+.profile-logo {
+  font-size: 2.5rem;
+  display: inline;
+  margin-left: 170px;
+}
+
+.request-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 15px;
+}
+
+.requests {
+  background-color: lightgray;
+  color: black;
+  border: solid lightgray;
+  border-radius: 50%;
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+.title {
+  margin: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.view-more {
+  border-top: solid lightslategray;
+  padding: 15px;
+}
+
+.view-more-link {
+  color: rgb(69, 108, 160);
+  font-weight: bold;
+  margin-left: 15px;
+}
