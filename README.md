@@ -6,7 +6,7 @@ This profile page website is an assignment for coding dojo. It was developed usi
 
 ## Screenshot
 
-![screenshot of entire page](./assets/imgaes/screenshot.png)
+![screenshot of entire page](./assets/images/screenshot.png)
 
 ## Links to Application
 
